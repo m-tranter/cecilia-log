@@ -6,7 +6,7 @@ import { NodejsClient } from 'contensis-management-api/lib/client/nodejs-client.
 // Set some variables.
 const port = 3001;
 const ROOT_URL = `https://cms-chesheast.cloud.contensis.com/`;
-const PROJECT = website;
+const PROJECT = "website";
 const pwd = process.env.pwd
 //import {} from 'dotenv/config';
 

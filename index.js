@@ -4,7 +4,7 @@ import cors from 'cors';
 import { NodejsClient } from 'contensis-management-api/lib/client/nodejs-client.js';
 
 // Set some variables.
-const port = 3001;
+const port = process.env.PORT;
 const ROOT_URL = `https://cms-chesheast.cloud.contensis.com/`;
 const PROJECT = "website";
 const pwd = process.env.pwd

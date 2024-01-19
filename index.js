@@ -8,7 +8,7 @@ const port = 3001;
 const ROOT_URL = `https://cms-${process.env.alias}.cloud.contensis.com/`;
 const PROJECT = process.env.projectId;
 //import {} from 'dotenv/config';
-const pwd = 'warn9meDe';
+
 const client = NodejsClient.create({
   clientType: 'client_credentials',
   clientDetails: {
